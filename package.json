@@ -4,7 +4,8 @@
   "description": "parser for periodical volume/issue strings",
   "main": "src/index.js",
   "scripts": {
-    "test": "nodeunit test"
+    "test": "nodeunit test",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",

@@ -37,7 +37,6 @@ exports['"Octavo"'] = function (test) {
 exports['"Grey room."'] = function (test) {
     test.deepEqual(
         parse('no.63 Spr 2016'),
-        // faced with this string, I think not assuming the ".5" is an issue is correct behavior
         {'issue': 63, 'original_string': 'no.63 Spr 2016', 'volume': null, 'year': 2016}
     )
     test.deepEqual(
@@ -47,7 +46,6 @@ exports['"Grey room."'] = function (test) {
     )
     test.deepEqual(
         parse('no.5-9 2002'),
-        // @TODO brings up a question: how to handle issue ranges?
         {'issue': 5, 'original_string': 'no.5-9 2002', 'volume': null, 'year': 2002}
     )
     test.done()

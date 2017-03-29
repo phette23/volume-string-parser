@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/phette23/volume-string-parse#readme",
   "devDependencies": {
+    "eslint": "^3.18.0",
     "nodeunit": "^0.10.2"
   }
 }

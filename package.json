@@ -1,6 +1,6 @@
 {
   "name": "volume-string-parse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "parser for periodical volume/issue strings",
   "main": "src/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phette23/volume-string-parse.git"
+    "url": "git+https://github.com/phette23/volume-string-parser.git"
   },
   "keywords": [
     "serial",
@@ -22,11 +22,11 @@
   "author": "phette23 <phette23@gmail.com> (http://phette.net)",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/phette23/volume-string-parse/issues"
+    "url": "https://github.com/phette23/volume-string-parser/issues"
   },
-  "homepage": "https://github.com/phette23/volume-string-parse#readme",
+  "homepage": "https://github.com/phette23/volume-string-parser#readme",
   "devDependencies": {
     "eslint": "^3.18.0",
-    "nodeunit": "^0.10.2"
+    "nodeunit": "^0.11.3"
   }
 }

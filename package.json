@@ -1,6 +1,6 @@
 {
   "name": "volume-string-parse",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "parser for periodical volume/issue strings",
   "main": "src/index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/phette23/volume-string-parser#readme",
   "devDependencies": {
-    "eslint": ">=4.18.2",
+    "eslint": "^6.8.0",
     "nodeunit": "^0.11.3"
   }
 }

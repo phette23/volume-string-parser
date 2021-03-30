@@ -1,6 +1,6 @@
 {
   "name": "volume-string-parse",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "parser for periodical volume/issue strings",
   "main": "src/index.js",
   "scripts": {

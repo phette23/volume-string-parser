@@ -1,5 +1,7 @@
 # volume-string-parser
 
+![npm badge](https://img.shields.io/npm/v/volume-string-parse)
+
 Turn serials issue/volume strings like 'v.1 no.3 Aut 1979' into meaningful data that could be used for sorting or other nefarious deeds.
 
 ```js

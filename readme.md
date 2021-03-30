@@ -6,7 +6,7 @@ Turn serials issue/volume strings like 'v.1 no.3 Aut 1979' into meaningful data 
 
 ```js
 // node example
-const parse = require('volume-string-parser')
+const parse = require('volume-string-parse')
 const string = 'v.1 no.3 Aut 1979'
 const data = parse(string)
 console.log(data)

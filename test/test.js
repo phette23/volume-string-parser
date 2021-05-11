@@ -1,3 +1,4 @@
+/* global test, expect */
 var parse = require('../src/index')
 
 // tests use actual issue strings from library holdings

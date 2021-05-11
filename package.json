@@ -4,7 +4,7 @@
   "description": "parser for periodical volume/issue strings",
   "main": "src/index.js",
   "scripts": {
-    "test": "nodeunit test",
+    "test": "jest --coverage test/test.js",
     "lint": "eslint ."
   },
   "repository": {
@@ -27,6 +27,6 @@
   "homepage": "https://github.com/phette23/volume-string-parser#readme",
   "devDependencies": {
     "eslint": "^7.26.0",
-    "nodeunit": "^0.11.3"
+    "jest": "^26.6.3"
   }
 }
